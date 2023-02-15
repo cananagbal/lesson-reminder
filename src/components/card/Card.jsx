@@ -7,9 +7,11 @@ const Card = (props) => {
     <div className="cards">
     
         <div><img src= {image} alt="html resmi"/></div>
-     
+         <div> 
             <p>Lesson Name: {name}</p> 
             <p>Lesson Hour: {age} </p>
+         </div>
+           
         </div>  
       
     
